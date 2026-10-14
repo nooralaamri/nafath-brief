@@ -31,9 +31,9 @@ Resource: Network Resource Model (NRM) for 5G networks and network slicing - 3GP
 
 ## Cybersecurity
 
-Incident response follows a lifecycle that helps an organization manage cyberattacks systematically. Preparation establishes roles and procedures; detection and analysis identify the incident and assess its impact. Containment limits further damage, eradication removes the threat, and recovery restores affected systems safely. Afterward, the team reviews what happened and improves its procedures. For a 5G emergency service, this process helps restore dependable communications while reducing the risk of repeated attacks.
+Incident response helps organizations manage cyberattacks and reduce their impact. Preparation establishes responsibilities and procedures before an incident occurs. Detection identifies suspicious activity, while response actions contain the threat and limit further damage. Recovery restores affected services safely, and lessons learned help improve future protection. For a 5G emergency service, these activities help maintain dependable communications and strengthen readiness for future attacks.
 
-Resource: Computer Security Incident Handling Guide - NIST - https://csrc.nist.gov/pubs/sp/800/61/r2/final
+Resource: Incident Response Recommendations and Considerations for Cybersecurity Risk Management - NIST - https://csrc.nist.gov/pubs/sp/800/61/r3/final
 
 ## Data
 

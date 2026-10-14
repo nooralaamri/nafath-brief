@@ -13,6 +13,7 @@ A safe HTTP method retrieves information without requesting a change to the serv
 Resource: HTTP request methods - MDN Web Docs - https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods
 
 ## AI
+
 A congestion-prediction model can overfit when it learns patterns specific to its training data but performs poorly on new network conditions. Cross-validation helps assess whether its predictions generalize by training and evaluating the model across different data splits. For a 5G emergency service, this evaluation matters because planners need predictions that remain useful during unfamiliar traffic peaks, not just periods similar to past observations.
 
 Resource: 3.1. Cross-validation: evaluating estimator performance - scikit-learn - https://scikit-learn.org/1.1/modules/cross_validation.html
@@ -42,5 +43,8 @@ A star schema connects a central fact table, such as daily network usage, direct
 Resource: Understand star schema and the importance for Power BI - Microsoft Learn - https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
 
 ## Misconception in My Track
+A common misconception is that an offline app is reliable simply because it saves data on the device. For emergency responders, a locally saved incident report may still be missing from the server when other teams need it. The app must distinguish saved updates from synchronized ones and reconcile conflicting changes after connectivity returns. This matters when two responders update the same incident while disconnected. The Android Developers guide supports this correction in the sections “The local data source,” “Writes,” and “Conflict resolution.”
 
 ## Open Question
+
+How should the operator prioritize synchronization when a responder reconnects after a long outage and multiple devices have edited the same emergency record?

@@ -25,9 +25,21 @@ Resource: Build an offline-first app - Android Developers - https://developer.an
 
 ## Networking
 
+5G network slicing allows an operator to create logical network slices with different service requirements over shared infrastructure. A dedicated slice for emergency responders can be configured to support their communication needs during periods of heavy public traffic. However, a slice does not automatically guarantee uninterrupted service; the operator must configure suitable resources, monitor performance, and manage failures so emergency communications remain dependable.
+
+Resource: Network Resource Model (NRM) for 5G networks and network slicing - 3GPP - https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=3399
+
 ## Cybersecurity
 
+Incident response follows a lifecycle that helps an organization manage cyberattacks systematically. Preparation establishes roles and procedures; detection and analysis identify the incident and assess its impact. Containment limits further damage, eradication removes the threat, and recovery restores affected systems safely. Afterward, the team reviews what happened and improves its procedures. For a 5G emergency service, this process helps restore dependable communications while reducing the risk of repeated attacks.
+
+Resource: Computer Security Incident Handling Guide - NIST - https://csrc.nist.gov/pubs/sp/800/61/r2/final
+
 ## Data
+
+A star schema connects a central fact table, such as daily network usage, directly to dimension tables for date, region, and service type. A snowflake schema further divides some dimensions into related tables, reducing duplicated descriptive data but adding joins. For daily regional usage reports, a star schema is usually the more practical choice because its simpler structure makes filtering, aggregation, and reporting easier to manage.
+
+Resource: Understand star schema and the importance for Power BI - Microsoft Learn - https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
 
 ## Misconception in My Track
 
